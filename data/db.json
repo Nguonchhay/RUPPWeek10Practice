@@ -26,33 +26,15 @@
   "posts": [
     {
       "category_id": "1",
-      "title": "Post 1",
-      "content": "",
+      "title": "Man must explore, and this is exploration at its greatest",
+      "content": "Problems look mighty small from 150 miles up",
       "id": 1
     },
     {
       "category_id": "2",
-      "title": "Post 2",
-      "content": "",
+      "title": "Science has not yet mastered prophecy",
+      "content": "We predict too much for the next year and yet far too little for the next ten.",
       "id": 2
-    },
-    {
-      "category_id": "1",
-      "title": "Post 3",
-      "content": "",
-      "id": 3
-    },
-    {
-      "category_id": "1",
-      "title": "Post 4",
-      "content": "",
-      "id": 4
-    },
-    {
-      "category_id": "1",
-      "title": "Post 5",
-      "content": "Content 5",
-      "id": 5
     }
   ]
 }

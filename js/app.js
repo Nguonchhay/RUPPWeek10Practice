@@ -23,4 +23,31 @@ $(document).ready(function() {
             }
         });
     });
+
+    const postList = $('#postList');
+    if (postList.length) {
+        $.get(baseURL + '/posts', function(data, status) {
+            postList.html('');
+            for (const post of data) {
+                postList.append(`
+                    <div class="post-item">
+                        <div class="post-preview">
+                        <a href="post.html?id=${post.id}">
+                            <h2 class="post-title">
+                                ${post.title}
+                            </h2>
+                            <h3 class="post-subtitle">
+                                ${post.content}
+                            </h3>
+                        </a>
+                        <p class="post-meta">Posted by
+                            <a href="#">Start Bootstrap</a>
+                            on September 24, 2019</p>
+                        </div>
+                        <hr>
+                    </div>
+                `);
+            }
+        });
+    }
 });
