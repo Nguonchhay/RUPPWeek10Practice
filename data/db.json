@@ -1,0 +1,22 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "email": "admin@test.com",
+            "password": "12345678",
+            "name": "Super Admin"
+        },
+        {
+            "id": 2,
+            "email": "editor@test.com",
+            "password": "1234567890",
+            "name": "Editor"
+        }
+    ],
+    "categories": [
+
+    ],
+    "posts": [
+
+    ]
+}
